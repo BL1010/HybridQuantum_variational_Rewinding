@@ -8,45 +8,35 @@ Time Series Anomaly Detection (TAD) is essential in identifying unusual behavior
 
 We compare:
 
-Original QVR model.
+1. Original QVR model.
 
-Neural-enhanced QVR model.
+2. Neural-enhanced QVR model.
 
-Simplified variational quantum circuit.
+3. Simplified variational quantum circuit.
 
 🧠 Key Concepts
-Quantum Variational Rewinding (QVR): Uses time devolution via variational circuits to detect anomalies.
-
-Hybrid Neural-QVR: A feedforward neural network replaces stochastic parameter initialization to generate dynamic parameters.
-
-Simplified Variational Circuit: A static, trainable unitary circuit with entangling gates improves noise tolerance and implementation efficiency.
+1. Quantum Variational Rewinding (QVR): Uses time devolution via variational circuits to detect anomalies.
+2. Hybrid Neural-QVR: A feedforward neural network replaces stochastic parameter initialization to generate dynamic parameters.
+3. Simplified Variational Circuit: A static, trainable unitary circuit with entangling gates improves noise tolerance and implementation efficiency.
 
 🧪 Dataset
 We used Cosmic Microwave Background (CMB) data from NASA containing:
-
-Temperatures
-
-Luminosities
-
-Spectral Densities
-
-Optical Depth
-
-Baryon Densities
-
-Hubble Parameters
-
-Dark Matter Density
+1. Temperatures
+2. Luminosities
+3. Spectral Densities\
+4. Optical Depth
+5. Baryon Densities
+6. Hubble Parameters
+7. Dark Matter Density
 
 Each time series has 7 features and is processed over 50 time points.
 
 🛠️ Architecture Summary
+
 📌 1. QVR Model
-Angle encoding of time-series data
-
-Time devolution using parameterized Hamiltonians
-
-Loss function clusters expectation values near a fixed center
+   a.  Angle encoding of time-series data
+   b.  Time devolution using parameterized Hamiltonians
+   c.  Loss function clusters expectation values near a fixed center
 
 📌 2. Neural QVR Model
 Neural network (layers: 50 → 128 → 64 → 32 → 7) replaces normal distributions
