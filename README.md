@@ -60,37 +60,27 @@ Static Variational Circuit	0.66	0.68	0.00445
 Threshold Method	—	0.61	—
 
 📉 Training
-QVR & Neural-QVR trained for 400 epochs
-
-Variational circuit achieved convergence within 100 epochs
-
-Barren plateau mitigated via partial measurement strategy
+1. QVR & Neural-QVR trained for 400 epochs
+2. Variational circuit achieved convergence within 100 epochs
+3. Barren plateau mitigated via partial measurement strategy
 
 ✅ Key Observations
-All quantum models outperform the classical threshold method.
-
-Neural network can replace probabilistic sampling in QVR with no significant accuracy loss.
-
-Static variational circuits are lightweight and practical for NISQ devices.
-
-Models are robust to noise, needing no pre-filtering.
+1. All quantum models outperform the classical threshold method.
+2. Neural network can replace probabilistic sampling in QVR with no significant accuracy loss.
+3. Static variational circuits are lightweight and practical for NISQ devices.
+4. Models are robust to noise, needing no pre-filtering.
 
 📦 Dependencies
-PennyLane
-
-IBM Quantum Device Simulators
-
-NumPy, PyTorch
+1. PennyLane
+2. IBM Quantum Device Simulators
+3. NumPy, PyTorch
 
 🔮 Future Work
-Train models on actual quantum sensor data
-
-Explore weight initialization strategies for quantum circuits
-
-Run models on noisy real quantum hardware with mitigation techniques
+1. Train models on actual quantum sensor data
+2. Explore weight initialization strategies for quantum circuits
+3.Run models on noisy real quantum hardware with mitigation techniques
 
 🙏 Acknowledgments
-IBM Quantum services
-
-NASA for CMB data
-WMAP CMB Data
+1. IBM Quantum services
+2. NASA for CMB data
+3. WMAP CMB Data
